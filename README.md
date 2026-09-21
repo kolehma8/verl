@@ -23,6 +23,14 @@ paired-seed statistics and trajectory-comparison results. `*-audit.json`
 contains completion, native-rank, first-backward-shape, reward, gradient,
 and source-log-hash records. `step-metrics.csv` contains all 3,200 steps.
 
+`b300-*-reward-mean-ci.png` shows one mean curve per backend with pointwise
+95% Student-t confidence intervals across the four seeds (df=3), without
+smoothing or clipping. These are pointwise intervals for the seed mean,
+not simultaneous confidence bands or intervals for a paired backend
+difference. Lower endpoints can fall below zero; the underlying rewards
+remain nonnegative. `b300-reward-mean-ci.csv` records every plotted mean and
+interval endpoint. `plot_b300_reward_confidence.py` regenerates the figures.
+
 Reward learning is evident for Qwen3-32B, but rewards are nearly all zero
 for the other cases under the short response cap. These runs do not
 establish policy equivalence. No whole-step throughput confidence interval
