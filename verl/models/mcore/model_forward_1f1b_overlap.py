@@ -27,7 +27,7 @@ from verl.utils.kernel.linear_cross_entropy import linear_cross_entropy
 from verl.utils.megatron_utils import unwrap_model
 from verl.utils.model import CausalLMOutputForPPO
 
-from .model_forward_fused import _gather_fused_hidden_states, _get_fused_kernel_options
+from .model_forward_fused import _gather_fused_hidden_states, _get_fused_impl_backend
 from .util import postprocess_packed_seqs, postprocess_packed_seqs_for_dict_output
 
 
@@ -187,7 +187,7 @@ def gptmodel_forward_1f1b_overlap(
                     hidden_states=hidden_states,
                     attentions=None,
                 )
-                impl_backend, chunk_size, tiles_per_reduce = _get_fused_kernel_options(model)
+                impl_backend = _get_fused_impl_backend(model)
                 hidden_states = _gather_fused_hidden_states(
                     hidden_states,
                     self.config.sequence_parallel,
@@ -201,8 +201,6 @@ def gptmodel_forward_1f1b_overlap(
                     "none",
                     parallel_state.get_tensor_model_parallel_group(),
                     impl_backend=impl_backend,
-                    chunk_size=chunk_size,
-                    tiles_per_reduce=tiles_per_reduce,
                 )
                 output.entropy = entropy
                 output.log_probs = logprobs
