@@ -1,0 +1,698 @@
+[
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "inference_forward",
+    "triton_ms": 6.083007961511612,
+    "liger_ms": 2.4082539826631546,
+    "triton_effective_tflops_per_gpu": 523.8081033068721,
+    "liger_effective_tflops_per_gpu": 1323.0867199465463,
+    "mean_paired_gain_percent": 152.62180225886084,
+    "gain_ci95_low": 147.3771299094489,
+    "gain_ci95_high": 157.86647460827277,
+    "triton_seed_cv_percent": 0.07883173161543076,
+    "liger_seed_cv_percent": 1.2901831987151446,
+    "triton_wall_ms": 6.0963493888266385,
+    "liger_wall_ms": 2.4208033792092465,
+    "triton_seed_ms": [
+      6.087071895599365,
+      6.087023973464966,
+      6.080327987670898,
+      6.077607989311218
+    ],
+    "liger_seed_ms": [
+      2.3750799894332886,
+      2.423375904560089,
+      2.44377601146698,
+      2.3907840251922607
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "forward",
+    "triton_ms": 6.087393969297409,
+    "liger_ms": 2.318011999130249,
+    "triton_effective_tflops_per_gpu": 523.4306960894397,
+    "liger_effective_tflops_per_gpu": 1374.5954999005853,
+    "mean_paired_gain_percent": 162.66323872512808,
+    "gain_ci95_low": 155.98868742151538,
+    "gain_ci95_high": 169.33779002874078,
+    "triton_seed_cv_percent": 0.058457205307811795,
+    "liger_seed_cv_percent": 1.6079477808076121,
+    "triton_wall_ms": 6.101657745603006,
+    "liger_wall_ms": 2.3303301859414205,
+    "triton_seed_ms": [
+      6.091543912887573,
+      6.089071989059448,
+      6.083783984184265,
+      6.08517599105835
+    ],
+    "liger_seed_ms": [
+      2.357599973678589,
+      2.274687945842743,
+      2.3009520173072815,
+      2.338808059692383
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "backward",
+    "triton_ms": 15.497994065284729,
+    "liger_ms": 8.053074061870575,
+    "triton_effective_tflops_per_gpu": 411.1924226190444,
+    "liger_effective_tflops_per_gpu": 791.332313161386,
+    "mean_paired_gain_percent": 92.44967279832422,
+    "gain_ci95_low": 91.46834005025822,
+    "gain_ci95_high": 93.43100554639021,
+    "triton_seed_cv_percent": 0.018147883427614035,
+    "liger_seed_cv_percent": 0.3243299290927272,
+    "triton_wall_ms": 15.513019468926359,
+    "liger_wall_ms": 8.068383176578209,
+    "triton_seed_ms": [
+      15.496063947677612,
+      15.495304107666016,
+      15.501328229904175,
+      15.499279975891113
+    ],
+    "liger_seed_ms": [
+      8.051480054855347,
+      8.034488201141357,
+      8.035824060440063,
+      8.090503931045532
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "full",
+    "triton_ms": 21.43898594379425,
+    "liger_ms": 10.459040105342865,
+    "triton_effective_tflops_per_gpu": 445.86934350441857,
+    "liger_effective_tflops_per_gpu": 913.9449215111925,
+    "mean_paired_gain_percent": 104.98184627257324,
+    "gain_ci95_low": 103.9904319425791,
+    "gain_ci95_high": 105.97326060256738,
+    "triton_seed_cv_percent": 0.005637360584633028,
+    "liger_seed_cv_percent": 0.30197338842969884,
+    "triton_wall_ms": 21.453806199133396,
+    "liger_wall_ms": 10.472968497197144,
+    "triton_seed_ms": [
+      21.43837594985962,
+      21.438519954681396,
+      21.43825626373291,
+      21.440791606903076
+    ],
+    "liger_seed_ms": [
+      10.466392278671265,
+      10.425880193710327,
+      10.499383926391602,
+      10.444504022598267
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "inference_forward",
+    "triton_ms": 7.456476032733917,
+    "liger_ms": 2.993863970041275,
+    "triton_effective_tflops_per_gpu": 500.76995079281926,
+    "liger_effective_tflops_per_gpu": 1247.2106860448043,
+    "mean_paired_gain_percent": 149.06386682744198,
+    "gain_ci95_low": 146.98079867076234,
+    "gain_ci95_high": 151.14693498412163,
+    "triton_seed_cv_percent": 0.016648143418506952,
+    "liger_seed_cv_percent": 0.5354150044400385,
+    "triton_wall_ms": 7.469589734682813,
+    "liger_wall_ms": 3.006858823937364,
+    "triton_seed_ms": [
+      7.457160115242004,
+      7.455471992492676,
+      7.457880139350891,
+      7.455391883850098
+    ],
+    "liger_seed_ms": [
+      3.010271966457367,
+      2.994719982147217,
+      2.998495936393738,
+      2.9719679951667786
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "forward",
+    "triton_ms": 7.460346013307571,
+    "liger_ms": 2.885008007287979,
+    "triton_effective_tflops_per_gpu": 500.51018134271857,
+    "liger_effective_tflops_per_gpu": 1294.2699384429393,
+    "mean_paired_gain_percent": 158.59190697831525,
+    "gain_ci95_low": 157.3497008367253,
+    "gain_ci95_high": 159.8341131199052,
+    "triton_seed_cv_percent": 0.03767258486901013,
+    "liger_seed_cv_percent": 0.3054944080344062,
+    "triton_wall_ms": 7.473821628082078,
+    "liger_wall_ms": 2.8974985834793188,
+    "triton_seed_ms": [
+      7.464183926582336,
+      7.460504174232483,
+      7.45904004573822,
+      7.457655906677246
+    ],
+    "liger_seed_ms": [
+      2.8817920088768005,
+      2.8981680274009705,
+      2.8802160024642944,
+      2.879855990409851
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "backward",
+    "triton_ms": 18.559316039085388,
+    "liger_ms": 14.823729872703552,
+    "triton_effective_tflops_per_gpu": 402.38326974295245,
+    "liger_effective_tflops_per_gpu": 503.7840230582935,
+    "mean_paired_gain_percent": 25.20049925223792,
+    "gain_ci95_low": 24.7543147813084,
+    "gain_ci95_high": 25.64668372316744,
+    "triton_seed_cv_percent": 0.011135969205462394,
+    "liger_seed_cv_percent": 0.21758232677338038,
+    "triton_wall_ms": 18.57414855476236,
+    "liger_wall_ms": 14.839040319202468,
+    "triton_seed_ms": [
+      18.556447982788086,
+      18.56111192703247,
+      18.56048011779785,
+      18.559224128723145
+    ],
+    "liger_seed_ms": [
+      14.832967758178711,
+      14.782191753387451,
+      14.820024013519287,
+      14.85973596572876
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "full",
+    "triton_ms": 25.87893795967102,
+    "liger_ms": 17.83820605278015,
+    "triton_effective_tflops_per_gpu": 432.85923964332585,
+    "liger_effective_tflops_per_gpu": 627.9744372755541,
+    "mean_paired_gain_percent": 45.07649202411308,
+    "gain_ci95_low": 44.53503544665671,
+    "gain_ci95_high": 45.61794860156945,
+    "triton_seed_cv_percent": 0.005734247726399473,
+    "liger_seed_cv_percent": 0.2320727540191136,
+    "triton_wall_ms": 25.893996200466063,
+    "liger_wall_ms": 17.85256219591247,
+    "triton_seed_ms": [
+      25.878920078277588,
+      25.877359867095947,
+      25.88092803955078,
+      25.878543853759766
+    ],
+    "liger_seed_ms": [
+      17.852240085601807,
+      17.819087982177734,
+      17.792967796325684,
+      17.88852834701538
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "inference_forward",
+    "triton_ms": 7.567260026931763,
+    "liger_ms": 3.143224000930786,
+    "triton_effective_tflops_per_gpu": 526.3346395161367,
+    "liger_effective_tflops_per_gpu": 1267.1419781792713,
+    "mean_paired_gain_percent": 140.758139741391,
+    "gain_ci95_low": 137.95311137974093,
+    "gain_ci95_high": 143.56316810304108,
+    "triton_seed_cv_percent": 0.023899011478008533,
+    "liger_seed_cv_percent": 0.7404177246264075,
+    "triton_wall_ms": 7.580586803669576,
+    "liger_wall_ms": 3.1555611931253225,
+    "triton_seed_ms": [
+      7.568024039268494,
+      7.566480040550232,
+      7.565191984176636,
+      7.5693440437316895
+    ],
+    "liger_seed_ms": [
+      3.1435840129852295,
+      3.169055998325348,
+      3.1125999689102173,
+      3.14765602350235
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "forward",
+    "triton_ms": 7.571528047323227,
+    "liger_ms": 3.0351520031690598,
+    "triton_effective_tflops_per_gpu": 526.0379481534225,
+    "liger_effective_tflops_per_gpu": 1312.2608272143757,
+    "mean_paired_gain_percent": 149.51226039467738,
+    "gain_ci95_low": 142.90639733811247,
+    "gain_ci95_high": 156.1181234512423,
+    "triton_seed_cv_percent": 0.02254605549045325,
+    "liger_seed_cv_percent": 1.6385891203162983,
+    "triton_wall_ms": 7.584926795971114,
+    "liger_wall_ms": 3.0478420449071564,
+    "triton_seed_ms": [
+      7.572648048400879,
+      7.568984031677246,
+      7.572272062301636,
+      7.572208046913147
+    ],
+    "liger_seed_ms": [
+      2.968991994857788,
+      3.0679920315742493,
+      3.025264024734497,
+      3.0783599615097046
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "backward",
+    "triton_ms": 19.20574200153351,
+    "liger_ms": 15.106886088848114,
+    "triton_effective_tflops_per_gpu": 414.7625307141978,
+    "liger_effective_tflops_per_gpu": 527.2974264815805,
+    "mean_paired_gain_percent": 27.133358882067157,
+    "gain_ci95_low": 26.47498155916726,
+    "gain_ci95_high": 27.79173620496705,
+    "triton_seed_cv_percent": 0.011073739900230297,
+    "liger_seed_cv_percent": 0.31945029742732156,
+    "triton_wall_ms": 19.22126162389759,
+    "liger_wall_ms": 15.12317155720666,
+    "triton_seed_ms": [
+      19.203375816345215,
+      19.20854425430298,
+      19.205416202545166,
+      19.205631732940674
+    ],
+    "liger_seed_ms": [
+      15.177328109741211,
+      15.0939359664917,
+      15.068032026290894,
+      15.088248252868652
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "full",
+    "triton_ms": 26.639316082000732,
+    "liger_ms": 18.208401918411255,
+    "triton_effective_tflops_per_gpu": 448.5375374660368,
+    "liger_effective_tflops_per_gpu": 656.2208637935519,
+    "mean_paired_gain_percent": 46.3027370901335,
+    "gain_ci95_low": 45.85339918049741,
+    "gain_ci95_high": 46.75207499976958,
+    "triton_seed_cv_percent": 0.00936584394854593,
+    "liger_seed_cv_percent": 0.19292147434533943,
+    "triton_wall_ms": 26.654047433112282,
+    "liger_wall_ms": 18.222506179881748,
+    "triton_seed_ms": [
+      26.635984420776367,
+      26.641679763793945,
+      26.638928413391113,
+      26.640671730041504
+    ],
+    "liger_seed_ms": [
+      18.20788812637329,
+      18.242151737213135,
+      18.223487854003906,
+      18.160079956054688
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "inference_forward",
+    "triton_ms": 2.786197990179062,
+    "liger_ms": 1.0002940073609352,
+    "triton_effective_tflops_per_gpu": 464.5922885030899,
+    "liger_effective_tflops_per_gpu": 1294.0656356575835,
+    "mean_paired_gain_percent": 178.5421622745961,
+    "gain_ci95_low": 176.21293318762469,
+    "gain_ci95_high": 180.87139136156753,
+    "triton_seed_cv_percent": 0.1830459690150342,
+    "liger_seed_cv_percent": 0.4057251969466511,
+    "triton_wall_ms": 2.7994089978164993,
+    "liger_wall_ms": 1.0123249303433113,
+    "triton_seed_ms": [
+      2.7785679697990417,
+      2.7882239818573,
+      2.7889439463615417,
+      2.7890560626983643
+    ],
+    "liger_seed_ms": [
+      1.0036640167236328,
+      0.9976079761981964,
+      0.9960400313138962,
+      1.0038640052080154
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "forward",
+    "triton_ms": 2.806543990969658,
+    "liger_ms": 0.9854720011353493,
+    "triton_effective_tflops_per_gpu": 461.2242333079448,
+    "liger_effective_tflops_per_gpu": 1313.529049012743,
+    "mean_paired_gain_percent": 184.7947173703494,
+    "gain_ci95_low": 180.36816354565906,
+    "gain_ci95_high": 189.22127119503972,
+    "triton_seed_cv_percent": 0.8561927506445006,
+    "liger_seed_cv_percent": 0.21462026038893228,
+    "triton_wall_ms": 2.8195779377711006,
+    "liger_wall_ms": 0.9973809283110313,
+    "triton_seed_ms": [
+      2.8306559920310974,
+      2.773624002933502,
+      2.8147119879722595,
+      2.8071839809417725
+    ],
+    "liger_seed_ms": [
+      0.98403200507164,
+      0.9870879948139191,
+      0.9874719977378845,
+      0.9832960069179535
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "backward",
+    "triton_ms": 5.257656008005142,
+    "liger_ms": 4.139482021331787,
+    "triton_effective_tflops_per_gpu": 492.40425714771635,
+    "liger_effective_tflops_per_gpu": 625.4145295519561,
+    "mean_paired_gain_percent": 27.01262240751395,
+    "gain_ci95_low": 26.68805814320637,
+    "gain_ci95_high": 27.337186671821527,
+    "triton_seed_cv_percent": 0.03595734954103782,
+    "liger_seed_cv_percent": 0.1394028259595742,
+    "triton_wall_ms": 5.272472932119854,
+    "liger_wall_ms": 4.154638547333889,
+    "triton_seed_ms": [
+      5.2562479972839355,
+      5.255824089050293,
+      5.259016036987305,
+      5.259535908699036
+    ],
+    "liger_seed_ms": [
+      4.146936058998108,
+      4.137207984924316,
+      4.140480041503906,
+      4.133303999900818
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "full",
+    "triton_ms": 7.866008013486862,
+    "liger_ms": 5.091074049472809,
+    "triton_effective_tflops_per_gpu": 493.68603423511956,
+    "liger_effective_tflops_per_gpu": 762.7738790878769,
+    "mean_paired_gain_percent": 54.50621211081748,
+    "gain_ci95_low": 54.107039934752436,
+    "gain_ci95_high": 54.90538428688252,
+    "triton_seed_cv_percent": 0.03698544122113172,
+    "liger_seed_cv_percent": 0.18668719249378926,
+    "triton_wall_ms": 7.880810015194584,
+    "liger_wall_ms": 5.104990443214774,
+    "triton_seed_ms": [
+      7.86684787273407,
+      7.86188805103302,
+      7.868728041648865,
+      7.866568088531494
+    ],
+    "liger_seed_ms": [
+      5.102663993835449,
+      5.079408049583435,
+      5.091648101806641,
+      5.0905760526657104
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "inference_forward",
+    "triton_ms": 3.1221579909324646,
+    "liger_ms": 1.146346002817154,
+    "triton_effective_tflops_per_gpu": 454.46517306327195,
+    "liger_effective_tflops_per_gpu": 1237.7694589530672,
+    "mean_paired_gain_percent": 172.3595666727776,
+    "gain_ci95_low": 170.68117998250406,
+    "gain_ci95_high": 174.03795336305112,
+    "triton_seed_cv_percent": 0.43993272983283704,
+    "liger_seed_cv_percent": 0.5077211628517109,
+    "triton_wall_ms": 3.134831633360591,
+    "liger_wall_ms": 1.158824990852736,
+    "triton_seed_ms": [
+      3.1123040318489075,
+      3.1327439546585083,
+      3.135143995285034,
+      3.1084399819374084
+    ],
+    "liger_seed_ms": [
+      1.1406240165233612,
+      1.154416024684906,
+      1.1458800137043,
+      1.1444639563560486
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "forward",
+    "triton_ms": 3.111616000533104,
+    "liger_ms": 1.127870000898838,
+    "triton_effective_tflops_per_gpu": 456.0048770275323,
+    "liger_effective_tflops_per_gpu": 1258.045759306676,
+    "mean_paired_gain_percent": 175.88867618967097,
+    "gain_ci95_low": 173.58154224594114,
+    "gain_ci95_high": 178.1958101334008,
+    "triton_seed_cv_percent": 0.4615069593652679,
+    "liger_seed_cv_percent": 0.6030654711126652,
+    "triton_wall_ms": 3.124906557786744,
+    "liger_wall_ms": 1.1400596849853173,
+    "triton_seed_ms": [
+      3.1230079531669617,
+      3.119912028312683,
+      3.0911360383033752,
+      3.1124079823493958
+    ],
+    "liger_seed_ms": [
+      1.1359599828720093,
+      1.1220960021018982,
+      1.1223920285701752,
+      1.1310319900512695
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "backward",
+    "triton_ms": 5.7824200093746185,
+    "liger_ms": 4.1926299929618835,
+    "triton_effective_tflops_per_gpu": 490.7675573132428,
+    "liger_effective_tflops_per_gpu": 676.860144616582,
+    "mean_paired_gain_percent": 37.91879570878724,
+    "gain_ci95_low": 37.67288009202321,
+    "gain_ci95_high": 38.16471132555127,
+    "triton_seed_cv_percent": 0.014843527790708487,
+    "liger_seed_cv_percent": 0.09865496458618819,
+    "triton_wall_ms": 5.796948891656939,
+    "liger_wall_ms": 4.20793589000823,
+    "triton_seed_ms": [
+      5.78327214717865,
+      5.782407999038696,
+      5.781247973442078,
+      5.78275191783905
+    ],
+    "liger_seed_ms": [
+      4.188112020492554,
+      4.195528030395508,
+      4.196695923805237,
+      4.190183997154236
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "full",
+    "triton_ms": 8.736601948738098,
+    "liger_ms": 5.287899971008301,
+    "triton_effective_tflops_per_gpu": 487.23018858090893,
+    "liger_effective_tflops_per_gpu": 804.9956009716883,
+    "mean_paired_gain_percent": 65.21894132569801,
+    "gain_ci95_low": 64.83537855517358,
+    "gain_ci95_high": 65.60250409622245,
+    "triton_seed_cv_percent": 0.06292608406308335,
+    "liger_seed_cv_percent": 0.12007991046164422,
+    "triton_wall_ms": 8.750786779273767,
+    "liger_wall_ms": 5.302236815623473,
+    "triton_seed_ms": [
+      8.744791984558105,
+      8.732967853546143,
+      8.734256029129028,
+      8.734391927719116
+    ],
+    "liger_seed_ms": [
+      5.285743951797485,
+      5.287024021148682,
+      5.281967997550964,
+      5.296863913536072
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "inference_forward",
+    "triton_ms": 3.484568014740944,
+    "liger_ms": 1.2293079942464828,
+    "triton_effective_tflops_per_gpu": 457.2057209445636,
+    "liger_effective_tflops_per_gpu": 1295.9847644499755,
+    "mean_paired_gain_percent": 183.4664397279544,
+    "gain_ci95_low": 180.31442495801068,
+    "gain_ci95_high": 186.6184544978981,
+    "triton_seed_cv_percent": 0.17641665552689956,
+    "liger_seed_cv_percent": 0.6056697601968496,
+    "triton_wall_ms": 3.497334459098056,
+    "liger_wall_ms": 1.2414349330356345,
+    "triton_seed_ms": [
+      3.4783520102500916,
+      3.4839760065078735,
+      3.482912063598633,
+      3.4930319786071777
+    ],
+    "liger_seed_ms": [
+      1.2287840247154236,
+      1.239679992198944,
+      1.226615995168686,
+      1.2221519649028778
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "forward",
+    "triton_ms": 3.4797239899635315,
+    "liger_ms": 1.2055120095610619,
+    "triton_effective_tflops_per_gpu": 457.8421840223876,
+    "liger_effective_tflops_per_gpu": 1321.5666195976646,
+    "mean_paired_gain_percent": 188.65431570067946,
+    "gain_ci95_low": 185.71329106804845,
+    "gain_ci95_high": 191.59534033331047,
+    "triton_seed_cv_percent": 0.41569932969497153,
+    "liger_seed_cv_percent": 0.24122327917449998,
+    "triton_wall_ms": 3.4934538634843193,
+    "liger_wall_ms": 1.2173233044450171,
+    "triton_seed_ms": [
+      3.5011199712753296,
+      3.4742720127105713,
+      3.4743120074272156,
+      3.4691919684410095
+    ],
+    "liger_seed_ms": [
+      1.2020240128040314,
+      1.2054640054702759,
+      1.2054160237312317,
+      1.2091439962387085
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "backward",
+    "triton_ms": 6.177474021911621,
+    "liger_ms": 4.2908260226249695,
+    "triton_effective_tflops_per_gpu": 515.7980189666569,
+    "liger_effective_tflops_per_gpu": 742.5910176546196,
+    "mean_paired_gain_percent": 43.96951493119494,
+    "gain_ci95_low": 43.66489949629815,
+    "gain_ci95_high": 44.274130366091725,
+    "triton_seed_cv_percent": 0.013685573730555088,
+    "liger_seed_cv_percent": 0.12002726117255015,
+    "triton_wall_ms": 6.192566426761914,
+    "liger_wall_ms": 4.305963448132388,
+    "triton_seed_ms": [
+      6.176695942878723,
+      6.1784080266952515,
+      6.17682409286499,
+      6.1779680252075195
+    ],
+    "liger_seed_ms": [
+      4.294304013252258,
+      4.283671975135803,
+      4.2948479652404785,
+      4.290480136871338
+    ]
+  },
+  {
+    "device": "NVIDIA B300 SXM6 PC",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "full",
+    "triton_ms": 9.483102023601532,
+    "liger_ms": 5.480798006057739,
+    "triton_effective_tflops_per_gpu": 504.0010412399659,
+    "liger_effective_tflops_per_gpu": 872.0433208444078,
+    "mean_paired_gain_percent": 73.02519029944796,
+    "gain_ci95_low": 72.16582273077209,
+    "gain_ci95_high": 73.88455786812382,
+    "triton_seed_cv_percent": 0.048497070882106696,
+    "liger_seed_cv_percent": 0.2668352283351669,
+    "triton_wall_ms": 9.497965897026006,
+    "liger_wall_ms": 5.494777884450741,
+    "triton_seed_ms": [
+      9.476560115814209,
+      9.483720064163208,
+      9.484895944595337,
+      9.487231969833374
+    ],
+    "liger_seed_ms": [
+      5.502400040626526,
+      5.476280093193054,
+      5.4701759815216064,
+      5.4743359088897705
+    ]
+  }
+]

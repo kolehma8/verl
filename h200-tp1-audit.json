@@ -1,0 +1,162 @@
+{
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed42-triton": {
+    "steps": 100,
+    "log_sha256": "e09b9cece0dc79f60951771acb6dc9df5c7a66baed08656b877061e3896461ef",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.00015625,
+    "reward_min": 0.0,
+    "reward_max": 0.0078125,
+    "nonzero_reward_steps": 2,
+    "grad_norm_mean": 0.018468943629413842
+  },
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed42-liger_tp": {
+    "steps": 100,
+    "log_sha256": "5cd22f7133829cc25f59b9c2d6be0aa4bde993be6e9418298f96e9be4d5a232f",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 4738,
+      "1": 4738,
+      "6": 4829,
+      "7": 4829,
+      "4": 4829,
+      "5": 4829,
+      "2": 4738,
+      "3": 4738
+    },
+    "reward_mean": 0.0,
+    "reward_min": 0.0,
+    "reward_max": 0.0,
+    "nonzero_reward_steps": 0,
+    "grad_norm_mean": 0.017974445400759577
+  },
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed43-triton": {
+    "steps": 100,
+    "log_sha256": "84f71c78a384c093f01e6a5796a724420ae25b8cbdbeb0eed4d3f062bda1c84f",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.0,
+    "reward_min": 0.0,
+    "reward_max": 0.0,
+    "nonzero_reward_steps": 0,
+    "grad_norm_mean": 0.017686858689412475
+  },
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed43-liger_tp": {
+    "steps": 100,
+    "log_sha256": "50720aba5aa19ca83fe4a33f932d6a14dcb089596f754ef5386466439340bbf8",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 4650,
+      "1": 4650,
+      "6": 4832,
+      "7": 4832,
+      "4": 4832,
+      "5": 4832,
+      "2": 4650,
+      "3": 4650
+    },
+    "reward_mean": 0.0,
+    "reward_min": 0.0,
+    "reward_max": 0.0,
+    "nonzero_reward_steps": 0,
+    "grad_norm_mean": 0.018062481968663634
+  },
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed44-triton": {
+    "steps": 100,
+    "log_sha256": "da8b5b7f06d1e55f6fbe361707ef3b57168af52e189dd4ecd4fc2bca5e8ecdc5",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.0,
+    "reward_min": 0.0,
+    "reward_max": 0.0,
+    "nonzero_reward_steps": 0,
+    "grad_norm_mean": 0.01782496862113476
+  },
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed44-liger_tp": {
+    "steps": 100,
+    "log_sha256": "3767038bf3e7427e34e358e74247e808c14ab75f20ac5a8669816ac37fdba98f",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 4809,
+      "1": 4809,
+      "6": 4861,
+      "7": 4861,
+      "4": 4841,
+      "5": 4849,
+      "2": 4809,
+      "3": 4809
+    },
+    "reward_mean": 0.0,
+    "reward_min": 0.0,
+    "reward_max": 0.0,
+    "nonzero_reward_steps": 0,
+    "grad_norm_mean": 0.017947878879494963
+  },
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed45-triton": {
+    "steps": 100,
+    "log_sha256": "8b77901e648c4beb064c01c0ba99b8bb87673c8cf8f6ff066dfa3a7ff1f58dd6",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.0,
+    "reward_min": 0.0,
+    "reward_max": 0.0,
+    "nonzero_reward_steps": 0,
+    "grad_norm_mean": 0.01687596707139164
+  },
+  "microbatch-h200-qwen3-1.7b-v8-tp1-seed45-liger_tp": {
+    "steps": 100,
+    "log_sha256": "e832c3a1bff4b490221db038742b75c2d00b78d08b02127dbe0c6ab555e89fe0",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 4809,
+      "1": 4809,
+      "6": 4900,
+      "7": 4900,
+      "4": 4900,
+      "5": 4900,
+      "2": 4809,
+      "3": 4809
+    },
+    "reward_mean": 5.859375e-05,
+    "reward_min": 0.0,
+    "reward_max": 0.005859375,
+    "nonzero_reward_steps": 1,
+    "grad_norm_mean": 0.018613857738673686
+  }
+}

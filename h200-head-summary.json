@@ -1,0 +1,698 @@
+[
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "inference_forward",
+    "triton_ms": 6.544030010700226,
+    "liger_ms": 4.390320032835007,
+    "triton_effective_tflops_per_gpu": 389.5249694772174,
+    "liger_effective_tflops_per_gpu": 580.6098578490113,
+    "mean_paired_gain_percent": 49.0718618627951,
+    "gain_ci95_low": 46.199570537485464,
+    "gain_ci95_high": 51.94415318810474,
+    "triton_seed_cv_percent": 0.25413883332482917,
+    "liger_seed_cv_percent": 1.2067880907884374,
+    "triton_wall_ms": 6.563883245689794,
+    "liger_wall_ms": 4.408914759551408,
+    "triton_seed_ms": [
+      6.5453200340271,
+      6.530064105987549,
+      6.533743977546692,
+      6.566991925239563
+    ],
+    "liger_seed_ms": [
+      4.329040050506592,
+      4.443112015724182,
+      4.364207983016968,
+      4.424920082092285
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "forward",
+    "triton_ms": 6.522781997919083,
+    "liger_ms": 4.379465937614441,
+    "triton_effective_tflops_per_gpu": 390.79385007642594,
+    "liger_effective_tflops_per_gpu": 582.0488448791342,
+    "mean_paired_gain_percent": 48.962340006325825,
+    "gain_ci95_low": 45.705399373835384,
+    "gain_ci95_high": 52.219280638816265,
+    "triton_seed_cv_percent": 0.23586714996443386,
+    "liger_seed_cv_percent": 1.462908402692093,
+    "triton_wall_ms": 6.543302137288265,
+    "liger_wall_ms": 4.397982054797467,
+    "triton_seed_ms": [
+      6.511008024215698,
+      6.526047945022583,
+      6.543231964111328,
+      6.510840058326721
+    ],
+    "liger_seed_ms": [
+      4.285023927688599,
+      4.427591919898987,
+      4.4043519496917725,
+      4.400895953178406
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "backward",
+    "triton_ms": 22.1116840839386,
+    "liger_ms": 14.164692103862762,
+    "triton_effective_tflops_per_gpu": 230.56254607287727,
+    "liger_effective_tflops_per_gpu": 359.9178960594366,
+    "mean_paired_gain_percent": 56.14261325383344,
+    "gain_ci95_low": 51.21317292708343,
+    "gain_ci95_high": 61.07205358058345,
+    "triton_seed_cv_percent": 0.31913092299370827,
+    "liger_seed_cv_percent": 1.6543644987023334,
+    "triton_wall_ms": 22.137654130347073,
+    "liger_wall_ms": 14.191051937814336,
+    "triton_seed_ms": [
+      22.212016105651855,
+      22.082520484924316,
+      22.103384017944336,
+      22.048815727233887
+    ],
+    "liger_seed_ms": [
+      13.833847999572754,
+      14.359640121459961,
+      14.169224262237549,
+      14.296056032180786
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4096,
+    "mode": "full",
+    "triton_ms": 28.343610286712646,
+    "liger_ms": 18.56070601940155,
+    "triton_effective_tflops_per_gpu": 269.80293594119047,
+    "liger_effective_tflops_per_gpu": 412.00961119336597,
+    "mean_paired_gain_percent": 52.72948133603923,
+    "gain_ci95_low": 49.256575329348316,
+    "gain_ci95_high": 56.20238734273014,
+    "triton_seed_cv_percent": 0.1396073503650182,
+    "liger_seed_cv_percent": 1.3398403331680961,
+    "triton_wall_ms": 28.374836256261915,
+    "liger_wall_ms": 18.586398437037133,
+    "triton_seed_ms": [
+      28.354560375213623,
+      28.374816417694092,
+      28.359376430511475,
+      28.285687923431396
+    ],
+    "liger_seed_ms": [
+      18.23415994644165,
+      18.50763988494873,
+      18.705624103546143,
+      18.795400142669678
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "inference_forward",
+    "triton_ms": 7.9550299644470215,
+    "liger_ms": 5.562097996473312,
+    "triton_effective_tflops_per_gpu": 375.5087437948637,
+    "liger_effective_tflops_per_gpu": 537.0605319600706,
+    "mean_paired_gain_percent": 43.026784918264724,
+    "gain_ci95_low": 41.30998394339288,
+    "gain_ci95_high": 44.74358589313657,
+    "triton_seed_cv_percent": 0.3662413110733359,
+    "liger_seed_cv_percent": 0.6618813512445474,
+    "triton_wall_ms": 7.975936310685938,
+    "liger_wall_ms": 5.58126130636083,
+    "triton_seed_ms": [
+      7.911391973495483,
+      7.968728065490723,
+      7.971783876419067,
+      7.9682159423828125
+    ],
+    "liger_seed_ms": [
+      5.563896059989929,
+      5.5181519985198975,
+      5.60810399055481,
+      5.558239936828613
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "forward",
+    "triton_ms": 7.967479944229126,
+    "liger_ms": 5.553056001663208,
+    "triton_effective_tflops_per_gpu": 374.92197403818096,
+    "liger_effective_tflops_per_gpu": 537.9350231485694,
+    "mean_paired_gain_percent": 43.485564544452714,
+    "gain_ci95_low": 41.73957527913088,
+    "gain_ci95_high": 45.231553809774546,
+    "triton_seed_cv_percent": 0.20249181325297755,
+    "liger_seed_cv_percent": 0.8008271582955856,
+    "triton_wall_ms": 7.9887141910148785,
+    "liger_wall_ms": 5.572751564614009,
+    "triton_seed_ms": [
+      7.97271203994751,
+      7.985559940338135,
+      7.947023868560791,
+      7.964623928070068
+    ],
+    "liger_seed_ms": [
+      5.520671963691711,
+      5.609055995941162,
+      5.568352103233337,
+      5.514143943786621
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "backward",
+    "triton_ms": 25.609126091003418,
+    "liger_ms": 17.093196153640747,
+    "triton_effective_tflops_per_gpu": 233.29053074164906,
+    "liger_effective_tflops_per_gpu": 349.5172326989003,
+    "mean_paired_gain_percent": 49.82447374405767,
+    "gain_ci95_low": 48.410285556191965,
+    "gain_ci95_high": 51.238661931923374,
+    "triton_seed_cv_percent": 0.031127443221167565,
+    "liger_seed_cv_percent": 0.5844072096588211,
+    "triton_wall_ms": 25.636527072492754,
+    "liger_wall_ms": 17.120432887168135,
+    "triton_seed_ms": [
+      25.620935916900635,
+      25.603520393371582,
+      25.605528354644775,
+      25.60651969909668
+    ],
+    "liger_seed_ms": [
+      17.063888549804688,
+      17.237088203430176,
+      17.06596803665161,
+      17.005839824676514
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 4800,
+    "mode": "full",
+    "triton_ms": 33.28597617149353,
+    "liger_ms": 22.93605411052704,
+    "triton_effective_tflops_per_gpu": 269.22899542524965,
+    "liger_effective_tflops_per_gpu": 390.7189040981067,
+    "mean_paired_gain_percent": 45.12627995262201,
+    "gain_ci95_low": 44.33199978656633,
+    "gain_ci95_high": 45.9205601186777,
+    "triton_seed_cv_percent": 0.051095055930814745,
+    "liger_seed_cv_percent": 0.31205046528126834,
+    "triton_wall_ms": 33.319020752969664,
+    "liger_wall_ms": 22.96354305872228,
+    "triton_seed_ms": [
+      33.26381587982178,
+      33.30507183074951,
+      33.289424896240234,
+      33.2855920791626
+    ],
+    "liger_seed_ms": [
+      22.982888221740723,
+      22.866151809692383,
+      23.01092004776001,
+      22.88425636291504
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "inference_forward",
+    "triton_ms": 8.448513984680176,
+    "liger_ms": 5.755107998847961,
+    "triton_effective_tflops_per_gpu": 377.14666372072304,
+    "liger_effective_tflops_per_gpu": 553.652314319354,
+    "mean_paired_gain_percent": 46.80924282760998,
+    "gain_ci95_low": 44.54582758251953,
+    "gain_ci95_high": 49.07265807270043,
+    "triton_seed_cv_percent": 0.25179766895914774,
+    "liger_seed_cv_percent": 0.8677772076022183,
+    "triton_wall_ms": 8.469534179312177,
+    "liger_wall_ms": 5.77514907126897,
+    "triton_seed_ms": [
+      8.434792041778564,
+      8.428383827209473,
+      8.455663919448853,
+      8.475216150283813
+    ],
+    "liger_seed_ms": [
+      5.73309600353241,
+      5.816751956939697,
+      5.700560092926025,
+      5.770023941993713
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "forward",
+    "triton_ms": 8.497263967990875,
+    "liger_ms": 5.692483961582184,
+    "triton_effective_tflops_per_gpu": 374.98292094053744,
+    "liger_effective_tflops_per_gpu": 559.7431427517599,
+    "mean_paired_gain_percent": 49.27524538827734,
+    "gain_ci95_low": 47.880764615816105,
+    "gain_ci95_high": 50.66972616073858,
+    "triton_seed_cv_percent": 0.1981833907069363,
+    "liger_seed_cv_percent": 0.5818048832531149,
+    "triton_wall_ms": 8.519042567058932,
+    "liger_wall_ms": 5.711893249099376,
+    "triton_seed_ms": [
+      8.479624271392822,
+      8.48855996131897,
+      8.50279188156128,
+      8.51807975769043
+    ],
+    "liger_seed_ms": [
+      5.656319975852966,
+      5.736304044723511,
+      5.684575915336609,
+      5.692735910415649
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "backward",
+    "triton_ms": 26.915630102157593,
+    "liger_ms": 17.376822113990784,
+    "triton_effective_tflops_per_gpu": 236.76420359667372,
+    "liger_effective_tflops_per_gpu": 366.7332083873446,
+    "mean_paired_gain_percent": 54.894673509672614,
+    "gain_ci95_low": 54.27057725320096,
+    "gain_ci95_high": 55.51876976614427,
+    "triton_seed_cv_percent": 0.0747589666068249,
+    "liger_seed_cv_percent": 0.2863137878922957,
+    "triton_wall_ms": 26.94277100090403,
+    "liger_wall_ms": 17.404455200448865,
+    "triton_seed_ms": [
+      26.88630437850952,
+      26.929160594940186,
+      26.91868782043457,
+      26.928367614746094
+    ],
+    "liger_seed_ms": [
+      17.350024223327637,
+      17.39469575881958,
+      17.324944019317627,
+      17.43762445449829
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 1,
+    "tokens": 5120,
+    "mode": "full",
+    "triton_ms": 34.96991419792175,
+    "liger_ms": 23.36041820049286,
+    "triton_effective_tflops_per_gpu": 273.3488716631763,
+    "liger_effective_tflops_per_gpu": 409.1958673906927,
+    "mean_paired_gain_percent": 49.69994575285839,
+    "gain_ci95_low": 48.482742073252886,
+    "gain_ci95_high": 50.917149432463894,
+    "triton_seed_cv_percent": 0.08124380614374287,
+    "liger_seed_cv_percent": 0.4662906835373042,
+    "triton_wall_ms": 35.0014473842748,
+    "liger_wall_ms": 23.38838552532252,
+    "triton_seed_ms": [
+      34.979408264160156,
+      35.000871658325195,
+      34.93303203582764,
+      34.96634483337402
+    ],
+    "liger_seed_ms": [
+      23.408000469207764,
+      23.326200008392334,
+      23.48036813735962,
+      23.22710418701172
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "inference_forward",
+    "triton_ms": 3.381009981036186,
+    "liger_ms": 2.1368220150470734,
+    "triton_effective_tflops_per_gpu": 382.8578169660676,
+    "liger_effective_tflops_per_gpu": 605.7809641443084,
+    "mean_paired_gain_percent": 58.22835595777339,
+    "gain_ci95_low": 57.280199833871386,
+    "gain_ci95_high": 59.17651208167539,
+    "triton_seed_cv_percent": 0.28099804086862873,
+    "liger_seed_cv_percent": 0.5648270773302704,
+    "triton_wall_ms": 3.3998113649431616,
+    "liger_wall_ms": 2.1549056182266213,
+    "triton_seed_ms": [
+      3.3754080533981323,
+      3.3756479620933533,
+      3.3778159618377686,
+      3.3951679468154907
+    ],
+    "liger_seed_ms": [
+      2.137176036834717,
+      2.134175956249237,
+      2.12335205078125,
+      2.1525840163230896
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "forward",
+    "triton_ms": 3.3915500044822693,
+    "liger_ms": 2.107578009366989,
+    "triton_effective_tflops_per_gpu": 381.66799804492376,
+    "liger_effective_tflops_per_gpu": 614.1865661564702,
+    "mean_paired_gain_percent": 60.94472318337884,
+    "gain_ci95_low": 57.217474588731434,
+    "gain_ci95_high": 64.67197177802625,
+    "triton_seed_cv_percent": 0.1559075791188273,
+    "liger_seed_cv_percent": 1.3123240690228841,
+    "triton_wall_ms": 3.4120309974241536,
+    "liger_wall_ms": 2.125631184753729,
+    "triton_seed_ms": [
+      3.39520800113678,
+      3.3899360299110413,
+      3.3962640166282654,
+      3.3847919702529907
+    ],
+    "liger_seed_ms": [
+      2.0756160020828247,
+      2.1172479391098022,
+      2.097144067287445,
+      2.1403040289878845
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "backward",
+    "triton_ms": 8.470767974853516,
+    "liger_ms": 9.20518809556961,
+    "triton_effective_tflops_per_gpu": 305.62662188899935,
+    "liger_effective_tflops_per_gpu": 281.24272682771306,
+    "mean_paired_gain_percent": -7.974126350429297,
+    "gain_ci95_low": -9.417657887015697,
+    "gain_ci95_high": -6.530594813842898,
+    "triton_seed_cv_percent": 0.3822352247528477,
+    "liger_seed_cv_percent": 0.6229398424606769,
+    "triton_wall_ms": 8.492307759297546,
+    "liger_wall_ms": 9.22834549783147,
+    "triton_seed_ms": [
+      8.426015853881836,
+      8.492224216461182,
+      8.49674391746521,
+      8.468087911605835
+    ],
+    "liger_seed_ms": [
+      9.290168046951294,
+      9.164512157440186,
+      9.18116021156311,
+      9.184911966323853
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3328,
+    "mode": "full",
+    "triton_ms": 11.768764078617096,
+    "liger_ms": 11.29276990890503,
+    "triton_effective_tflops_per_gpu": 329.9699335884994,
+    "liger_effective_tflops_per_gpu": 343.8782807730594,
+    "mean_paired_gain_percent": 4.214820414687093,
+    "gain_ci95_low": 3.806921431474089,
+    "gain_ci95_high": 4.622719397900098,
+    "triton_seed_cv_percent": 0.3775590184339509,
+    "liger_seed_cv_percent": 0.16423597791206565,
+    "triton_wall_ms": 11.791999568231404,
+    "liger_wall_ms": 11.31558993802173,
+    "triton_seed_ms": [
+      11.736687898635864,
+      11.749727964401245,
+      11.834480285644531,
+      11.754160165786743
+    ],
+    "liger_seed_ms": [
+      11.279919862747192,
+      11.275935888290405,
+      11.31606388092041,
+      11.29916000366211
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "inference_forward",
+    "triton_ms": 3.7682060301303864,
+    "liger_ms": 2.5727480053901672,
+    "triton_effective_tflops_per_gpu": 376.5484318889281,
+    "liger_effective_tflops_per_gpu": 551.5161487667023,
+    "mean_paired_gain_percent": 46.46716128262695,
+    "gain_ci95_low": 45.90611892285826,
+    "gain_ci95_high": 47.02820364239563,
+    "triton_seed_cv_percent": 0.24159708679161535,
+    "liger_seed_cv_percent": 0.42078038261418177,
+    "triton_wall_ms": 3.787186746194493,
+    "liger_wall_ms": 2.5916992490238044,
+    "triton_seed_ms": [
+      3.7557040452957153,
+      3.7672240138053894,
+      3.7744640111923218,
+      3.775432050228119
+    ],
+    "liger_seed_ms": [
+      2.5624880194664,
+      2.56550395488739,
+      2.576992094516754,
+      2.5860079526901245
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "forward",
+    "triton_ms": 3.779672011733055,
+    "liger_ms": 2.563066005706787,
+    "triton_effective_tflops_per_gpu": 375.4061376953712,
+    "liger_effective_tflops_per_gpu": 553.5995048589172,
+    "mean_paired_gain_percent": 47.46757737504919,
+    "gain_ci95_low": 46.37814816102389,
+    "gain_ci95_high": 48.55700658907449,
+    "triton_seed_cv_percent": 0.3189055681264998,
+    "liger_seed_cv_percent": 0.14902313908789835,
+    "triton_wall_ms": 3.7983203765179496,
+    "liger_wall_ms": 2.5816023735387716,
+    "triton_seed_ms": [
+      3.7625040411949158,
+      3.7880640029907227,
+      3.7880720496177673,
+      3.7800479531288147
+    ],
+    "liger_seed_ms": [
+      2.5685759782791138,
+      2.55977600812912,
+      2.5617119669914246,
+      2.5622000694274902
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "backward",
+    "triton_ms": 9.409204006195068,
+    "liger_ms": 9.232415914535522,
+    "triton_effective_tflops_per_gpu": 301.6008730910247,
+    "liger_effective_tflops_per_gpu": 307.37611581082774,
+    "mean_paired_gain_percent": 1.9156051010698227,
+    "gain_ci95_low": 1.3132660964695262,
+    "gain_ci95_high": 2.5179441056701193,
+    "triton_seed_cv_percent": 0.29871865379173007,
+    "liger_seed_cv_percent": 0.3811972320556567,
+    "triton_wall_ms": 9.431206442968687,
+    "liger_wall_ms": 9.255054876120994,
+    "triton_seed_ms": [
+      9.379992008209229,
+      9.399703979492188,
+      9.410160064697266,
+      9.446959972381592
+    ],
+    "liger_seed_ms": [
+      9.227760076522827,
+      9.185423612594604,
+      9.26695990562439,
+      9.249520063400269
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 3648,
+    "mode": "full",
+    "triton_ms": 13.100115895271301,
+    "liger_ms": 11.79282408952713,
+    "triton_effective_tflops_per_gpu": 324.9388210814637,
+    "liger_effective_tflops_per_gpu": 360.9598670110144,
+    "mean_paired_gain_percent": 11.086103230788142,
+    "gain_ci95_low": 10.473033988835365,
+    "gain_ci95_high": 11.69917247274092,
+    "triton_seed_cv_percent": 0.15081777355233394,
+    "liger_seed_cv_percent": 0.22543543081849585,
+    "triton_wall_ms": 13.123637560056522,
+    "liger_wall_ms": 11.81559574615676,
+    "triton_seed_ms": [
+      13.088311910629272,
+      13.083080053329468,
+      13.101775884628296,
+      13.127295732498169
+    ],
+    "liger_seed_ms": [
+      11.82855224609375,
+      11.786360025405884,
+      11.791863918304443,
+      11.764520168304443
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "inference_forward",
+    "triton_ms": 4.1441859900951385,
+    "liger_ms": 2.7655520290136337,
+    "triton_effective_tflops_per_gpu": 384.4336222282884,
+    "liger_effective_tflops_per_gpu": 576.0746551306868,
+    "mean_paired_gain_percent": 49.85443600575754,
+    "gain_ci95_low": 47.622776553590974,
+    "gain_ci95_high": 52.08609545792411,
+    "triton_seed_cv_percent": 0.80722850348492,
+    "liger_seed_cv_percent": 0.7237388102218136,
+    "triton_wall_ms": 4.163361500104656,
+    "liger_wall_ms": 2.783910749712959,
+    "triton_seed_ms": [
+      4.1127519607543945,
+      4.124287962913513,
+      4.1879600286483765,
+      4.15174400806427
+    ],
+    "liger_seed_ms": [
+      2.76881605386734,
+      2.768984079360962,
+      2.786255955696106,
+      2.738152027130127
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "forward",
+    "triton_ms": 4.108796089887619,
+    "liger_ms": 2.6783240139484406,
+    "triton_effective_tflops_per_gpu": 387.74482756178224,
+    "liger_effective_tflops_per_gpu": 594.836331624912,
+    "mean_paired_gain_percent": 53.415245180318564,
+    "gain_ci95_low": 51.53631705614918,
+    "gain_ci95_high": 55.29417330448795,
+    "triton_seed_cv_percent": 0.18653088057926157,
+    "liger_seed_cv_percent": 0.6984854238888525,
+    "triton_wall_ms": 4.128296241106,
+    "liger_wall_ms": 2.6963706950482447,
+    "triton_seed_ms": [
+      4.11787211894989,
+      4.109408020973206,
+      4.0991281270980835,
+      4.108776092529297
+    ],
+    "liger_seed_ms": [
+      2.6886799931526184,
+      2.6595280170440674,
+      2.6991840600967407,
+      2.6659039855003357
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "backward",
+    "triton_ms": 10.41722983121872,
+    "liger_ms": 9.549709856510162,
+    "triton_effective_tflops_per_gpu": 305.8710342716159,
+    "liger_effective_tflops_per_gpu": 333.6571383420448,
+    "mean_paired_gain_percent": 9.085123708782106,
+    "gain_ci95_low": 8.461328095297809,
+    "gain_ci95_high": 9.708919322266404,
+    "triton_seed_cv_percent": 0.2345001847367623,
+    "liger_seed_cv_percent": 0.37120423140012376,
+    "triton_wall_ms": 10.440079939144198,
+    "liger_wall_ms": 9.576424385159044,
+    "triton_seed_ms": [
+      10.440903663635254,
+      10.397607803344727,
+      10.43565583229065,
+      10.394752025604248
+    ],
+    "liger_seed_ms": [
+      9.559287786483765,
+      9.497575759887695,
+      9.565759897232056,
+      9.576215982437134
+    ]
+  },
+  {
+    "device": "NVIDIA H200",
+    "tp": 4,
+    "tokens": 4096,
+    "mode": "full",
+    "triton_ms": 14.3892320394516,
+    "liger_ms": 12.075677990913391,
+    "triton_effective_tflops_per_gpu": 332.1576357220351,
+    "liger_effective_tflops_per_gpu": 395.7950268031687,
+    "mean_paired_gain_percent": 19.16191244993791,
+    "gain_ci95_low": 17.820338895905145,
+    "gain_ci95_high": 20.50348600397067,
+    "triton_seed_cv_percent": 0.24319536105815104,
+    "liger_seed_cv_percent": 0.5073306471058592,
+    "triton_wall_ms": 14.413994380447548,
+    "liger_wall_ms": 12.09882968760212,
+    "triton_seed_ms": [
+      14.439512014389038,
+      14.370368003845215,
+      14.385696172714233,
+      14.36135196685791
+    ],
+    "liger_seed_ms": [
+      12.00869607925415,
+      12.042895793914795,
+      12.106559991836548,
+      12.144560098648071
+    ]
+  }
+]

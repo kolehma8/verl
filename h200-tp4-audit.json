@@ -1,0 +1,162 @@
+{
+  "microbatch-h200-qwen3-14b-v8-tp4-seed42-triton": {
+    "steps": 100,
+    "log_sha256": "31588d85ccc87ff754f4479fd7be2dbedbfa18cd4ec954c8322630c2509a8ee3",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.0,
+    "reward_min": 0.0,
+    "reward_max": 0.0,
+    "nonzero_reward_steps": 0,
+    "grad_norm_mean": 0.0132261175615713
+  },
+  "microbatch-h200-qwen3-14b-v8-tp4-seed42-liger_tp": {
+    "steps": 100,
+    "log_sha256": "94e3e857f90aeef81324530466c4143814142b7bc399c7b6c554363656af35a7",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 3440,
+      "1": 3440,
+      "6": 3440,
+      "7": 3440,
+      "4": 3440,
+      "5": 3440,
+      "2": 3440,
+      "3": 3440
+    },
+    "reward_mean": 0.001250000037252903,
+    "reward_min": 0.0,
+    "reward_max": 0.0416666679084301,
+    "nonzero_reward_steps": 3,
+    "grad_norm_mean": 0.013593805644195527
+  },
+  "microbatch-h200-qwen3-14b-v8-tp4-seed43-triton": {
+    "steps": 100,
+    "log_sha256": "37364bb088ac7ee87a5c6662be359dd5a56ab4ee5a9b33fb419d4874049ad128",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.000416666679084301,
+    "reward_min": 0.0,
+    "reward_max": 0.0416666679084301,
+    "nonzero_reward_steps": 1,
+    "grad_norm_mean": 0.01615845093736425
+  },
+  "microbatch-h200-qwen3-14b-v8-tp4-seed43-liger_tp": {
+    "steps": 100,
+    "log_sha256": "36644e1a711b6d4128fd551289c46646921adecb38a512e1b03279d0819c7994",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 3288,
+      "1": 3288,
+      "6": 3288,
+      "7": 3288,
+      "4": 3288,
+      "5": 3288,
+      "2": 3288,
+      "3": 3288
+    },
+    "reward_mean": 0.000416666679084301,
+    "reward_min": 0.0,
+    "reward_max": 0.0416666679084301,
+    "nonzero_reward_steps": 1,
+    "grad_norm_mean": 0.015626268365886063
+  },
+  "microbatch-h200-qwen3-14b-v8-tp4-seed44-triton": {
+    "steps": 100,
+    "log_sha256": "a4a0026ae349787fbf687bc263d05975724c8656fe506e4902ac97326d49e9ca",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.000833333358168602,
+    "reward_min": 0.0,
+    "reward_max": 0.0416666679084301,
+    "nonzero_reward_steps": 2,
+    "grad_norm_mean": 0.012612248584628106
+  },
+  "microbatch-h200-qwen3-14b-v8-tp4-seed44-liger_tp": {
+    "steps": 100,
+    "log_sha256": "2aed6b15a2e45c0b25d3144d0a7b68874d694ad2be5c9d556cf54dff6742d847",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 3504,
+      "1": 3504,
+      "6": 3504,
+      "7": 3504,
+      "4": 3504,
+      "5": 3504,
+      "2": 3504,
+      "3": 3504
+    },
+    "reward_mean": 0.000416666679084301,
+    "reward_min": 0.0,
+    "reward_max": 0.0416666679084301,
+    "nonzero_reward_steps": 1,
+    "grad_norm_mean": 0.013803583153057844
+  },
+  "microbatch-h200-qwen3-14b-v8-tp4-seed45-triton": {
+    "steps": 100,
+    "log_sha256": "34bff3df3c9c06692f69c18dd060b620a9d6de5790be5ab2b2dec256b807cb58",
+    "native_ranks": [],
+    "first_actor_backward_tokens": {},
+    "reward_mean": 0.000416666679084301,
+    "reward_min": 0.0,
+    "reward_max": 0.0416666679084301,
+    "nonzero_reward_steps": 1,
+    "grad_norm_mean": 0.01214947282569483
+  },
+  "microbatch-h200-qwen3-14b-v8-tp4-seed45-liger_tp": {
+    "steps": 100,
+    "log_sha256": "7f6de04e20aa10d08b7f34569b3c6d6f5f211b6ba976995bb9fe6af956884cea",
+    "native_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_actor_backward_tokens": {
+      "0": 3864,
+      "1": 3864,
+      "6": 3864,
+      "7": 3864,
+      "4": 3864,
+      "5": 3864,
+      "2": 3864,
+      "3": 3864
+    },
+    "reward_mean": 0.000416666679084301,
+    "reward_min": 0.0,
+    "reward_max": 0.0416666679084301,
+    "nonzero_reward_steps": 1,
+    "grad_norm_mean": 0.012199531029909848
+  }
+}
