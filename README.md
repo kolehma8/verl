@@ -4,6 +4,11 @@ Final September 20, 2026 results for
 [verl-project/verl#7945](https://github.com/verl-project/verl/pull/7945).
 This results-only branch is separate from the implementation branch.
 
+**September 22 update:** [longer-response results](long-response/README.md)
+supersede the short-response training results for B300 Qwen3-4B TP1 and
+H200 Qwen3-14B TP4. H200 Qwen3-1.7B is still in progress. The original
+artifacts below are preserved unchanged as historical results.
+
 ## Training campaign
 
 Each of four GPU/model/topology cases has four seeds (42-45), two backends,
