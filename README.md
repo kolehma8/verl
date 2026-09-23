@@ -4,9 +4,10 @@ Final September 20, 2026 results for
 [verl-project/verl#7945](https://github.com/verl-project/verl/pull/7945).
 This results-only branch is separate from the implementation branch.
 
-**September 22 update:** [longer-response results](long-response/README.md)
+**September 23 update:** [longer-response results](long-response/README.md)
 supersede the short-response training results for B300 Qwen3-4B TP1 and
-H200 Qwen3-14B TP4. H200 Qwen3-1.7B is still in progress. The original
+H200 Qwen3-14B TP4, plus H200 Qwen3-1.7B TP1 with a strengthened answer-format
+prompt. All 24 longer-response runs are complete. The original
 artifacts below are preserved unchanged as historical results.
 
 ## Training campaign
