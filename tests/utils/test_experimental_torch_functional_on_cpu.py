@@ -25,6 +25,12 @@ experimental_F = importlib.util.module_from_spec(_SPEC)
 _SPEC.loader.exec_module(experimental_F)
 
 
+def test_prepare_fused_linear_weight_preserves_regular_parameter():
+    hidden = torch.randn(3, 5)
+    weight = torch.nn.Parameter(torch.randn(7, 5))
+    assert experimental_F.prepare_fused_linear_weight(hidden, weight) is weight
+
+
 @pytest.mark.parametrize("hidden_shape", [(7, 5), (2, 7, 5)])
 def test_fused_linear_for_ppo_chunked_fallback_matches_torch(monkeypatch, hidden_shape):
     monkeypatch.setattr(experimental_F, "_LIGER_FUSED_LINEAR_SCALED_CROSS_ENTROPY", None)
