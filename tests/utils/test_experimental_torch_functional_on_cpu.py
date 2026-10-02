@@ -25,8 +25,9 @@ experimental_F = importlib.util.module_from_spec(_SPEC)
 _SPEC.loader.exec_module(experimental_F)
 
 
-def test_prepare_fused_linear_weight_preserves_regular_parameter():
-    hidden = torch.randn(3, 5)
+@pytest.mark.parametrize("hidden_dtype", [torch.float32, torch.bfloat16])
+def test_prepare_fused_linear_weight_preserves_regular_parameter(hidden_dtype):
+    hidden = torch.randn(3, 5, dtype=hidden_dtype)
     weight = torch.nn.Parameter(torch.randn(7, 5))
     assert experimental_F.prepare_fused_linear_weight(hidden, weight) is weight
 

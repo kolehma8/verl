@@ -36,12 +36,13 @@ except ImportError:
 
 def prepare_fused_linear_weight(hidden_states: torch.Tensor, weight: torch.Tensor) -> torch.Tensor:
     """Materialize an FSDP2 LM head before entering a fused autograd function."""
+    compute_dtype = hidden_states.dtype if isinstance(weight, DTensor) else weight.dtype
+    # Move regular CPU weights and offloaded shards before any NCCL gather.
+    weight = weight.to(device=hidden_states.device, dtype=compute_dtype, non_blocking=True)
     if isinstance(weight, DTensor):
-        # Move CPU-offloaded shards before the NCCL gather, preserving autograd.
-        weight = weight.to(device=hidden_states.device, dtype=hidden_states.dtype, non_blocking=True)
         # Each DP rank contributes a different weight gradient, not a replica.
         return weight.full_tensor(grad_placements=[Partial("avg")] * weight.device_mesh.ndim)
-    return weight.to(device=hidden_states.device, non_blocking=True)
+    return weight
 
 
 def _fused_linear_for_ppo_fwd(
